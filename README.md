@@ -23,8 +23,8 @@
 ## 설치 방법
 레포지토리 클론:
 ```bash
-git clone https://github.com/<your-username>/file-renamer-by-date.git
-cd file-renamer-by-date
+git clone https://github.com/imsang27/file-renamer-by-date
+cd File Renamer by Date
 ```
 
 ---
