@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 
 # 기준 경로
-base_path = Path(r"C:\Users\Example\Target\Path")
+base_path = Path(input("수정할 파일의 경로를 입력하세요: "))
 
 # 제외할 파일명 (리스트로 관리)
-exclude_files = {"exclude1.txt", "skip_this.docx"}
+exclude_files = input("제외할 파일명을 쉼표로 구분하여 입력하세요: ").split(',')
 
 # 파일만 가져오기 (폴더 제외)
 files = [f for f in base_path.iterdir() if f.is_file() and f.name not in exclude_files]
