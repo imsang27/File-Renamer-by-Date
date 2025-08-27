@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 # 기준 경로
-base_path = Path(r"C:\Users\Example\Documents\TargetPath")
+base_path = Path(r"C:\Users\Example\Target\Path")
 
 # 제외할 파일명 (리스트로 관리)
 exclude_files = {"exclude1.txt", "skip_this.docx"}
